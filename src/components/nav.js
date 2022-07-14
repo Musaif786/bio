@@ -14,9 +14,9 @@ function nav() {
             <Link to="/">Home</Link>
           </li>
 
-          <li>
-            <Link to="/About">Aout us</Link>
-          </li>
+          {/* <li>
+            <Link to="/About">About us</Link>
+          </li> */}
         
           <li>
             <Link to="/footer">More</Link>
