@@ -1,12 +1,23 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import Nav from "./nav";
 
 function Home() {
+
+    useEffect(()=>{
+        const imgFull =()=>{
+          let img = document.querySelector(".imgbox");
+          img.addEventListener("click",()=>{
+           //  img.style.height = "500px";
+           img.classList.toggle("aboutImg");
+          });
+        }
+        imgFull();
+       },[])
   return (
     <div>
       <div className="wrapper">
         <div className="imgbox">
-          <img
+          <img 
             src="./Images/image.jpg"
             alt="online/img"
           />

@@ -241,4 +241,27 @@ background-color: rgba(127, 129, 127, 0.944);
     padding: 0px;
     align-items: center;
   }
+  .text h1{
+  font-size: 20px;
+  }
+  .text1 h2{
+   font-size: 22px; 
+  }
+  
+}
+.imgbox.aboutImg{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  height: 100vh;
+  z-index: 100;
+  background-color: #b6b9be;
+}
+.imgbox.aboutImg img{
+  
+  background-color: #282c34;
+  height: 350px;
+  width: 250px;
 }
