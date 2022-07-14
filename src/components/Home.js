@@ -7,12 +7,12 @@ function Home() {
       <div className="wrapper">
         <div className="imgbox">
           <img
-            src="https://source.unsplash.com/300x300/?nature,water"
+            src="./Images/image.jpg"
             alt="online/img"
           />
         </div>
         <div className="conentbox">
-          <h1>Lorem ipsum dolor sit amet.</h1>
+          <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
             delectus iste ratione eum esse error modi atque facilis sequi minima
