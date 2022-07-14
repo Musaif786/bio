@@ -50,7 +50,7 @@ body{
   padding: 0px 10px;
 }
 .navLogo{
-  color: rgb(139, 220, 222);
+  color: blue;
 }
 .navLogo a{
   font-style: italic;
@@ -112,6 +112,11 @@ body{
   padding: 5px 25px;
   z-index: 1;
   
+}
+.conentbox #btn1 a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
 }
 .conentbox #btn1:hover{
   color: red;
@@ -206,4 +211,30 @@ background-color: rgba(127, 129, 127, 0.944);
 .text2 .address p{
   text-align: center;
   font-size: 22px;
+}
+
+@media screen and (max-width: 500px) {
+  .backphotos{
+    display: none;
+  }
+  .wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgbox{
+    position: relative;
+   padding: 10px;
+    width: 100%;
+
+  }
+  .imgbox img{  
+    position: absolute;
+    left: 20%;
+    right: 10%;
+    transform: translate(-15%,15%);
+  
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+  }
 }

@@ -18,8 +18,8 @@ function Home() {
             delectus iste ratione eum esse error modi atque facilis sequi minima
             accusamus culpa, asperiores provident praesentium!
           </p>
-          <button id="btn1" className="btn btn-success">
-            More
+          <button id="btn1" className="btn btn-primary">
+            <a href="https://musaif.netlify.com">enroll</a>
           </button>
         </div>
       </div>
