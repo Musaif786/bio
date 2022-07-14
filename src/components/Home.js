@@ -115,7 +115,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 </div>
 
     </div> */}
-      <div className="title">profile..</div>
+      <div className="title">profile...</div>
       <div className="info">
         <div className="text">
           <h1>Name :</h1>
@@ -145,7 +145,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 
       {/* Education */}
 
-      <div className="title">Education..</div>
+      <div className="title">Education...</div>
 
       <div className="info">
         <div className="text1">
@@ -164,7 +164,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 
       {/* Profession */}
 
-      <div className="title">Profession..</div>
+      <div className="title">Profession...</div>
 
 <div className="info">
   <div className="text1">
@@ -179,7 +179,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
   
 
 {/* Family */}
-<div className="title">Family..</div>
+<div className="title">Family...</div>
 
 <div className="info">
         <div className="text">
