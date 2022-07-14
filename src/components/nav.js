@@ -19,7 +19,7 @@ function nav() {
           </li> */}
         
           <li>
-            <Link to="/footer">More</Link>
+            {/* <Link to="/footer">More</Link> */}
           </li>
         </ul>
       </div>

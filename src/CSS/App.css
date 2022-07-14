@@ -64,6 +64,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
+  margin-top: 5px;
   
 }
 .nav ul li {
@@ -78,8 +80,24 @@ body{
 }
 .nav ul li a:hover{
   color: rgb(129, 3, 110);
+  animation: new 3s infinite linear;
+  padding: 2px 8px;
 }
-
+@keyframes new {
+  
+  25%{
+    border-left: 1px solid blue;
+  }
+  50%{
+    border-top: 1px solid rgb(95, 95, 149);
+  }
+  75%{
+    border-right: 1px solid rgb(108, 65, 136);
+  }100%{
+    border-bottom: 1px solid rgb(103, 40, 167);
+  }
+  
+}
 /* Home folder ka css all wrapper and all */
 
 .wrapper{
