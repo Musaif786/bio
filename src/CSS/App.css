@@ -50,7 +50,18 @@ body{
   padding: 0px 10px;
 }
 .navLogo{
-  color: blue;
+  color: rgb(201, 35, 35);
+}
+
+.logos {
+  color: rgb(255, 38, 0);
+}
+
+.logos a{
+  color: green;
+  font-style: italic;
+  
+
 }
 .navLogo a{
   
@@ -130,6 +141,31 @@ body{
   word-wrap: break-word;
   
 }
+.conentbox .moveupanddown {
+  height: 45px;
+  position: relative;
+  overflow-y: hidden; 
+  
+}
+.conentbox .moveupanddown h1{
+
+ animation: upanddown 10s ease-in-out infinite alternate;
+}
+@keyframes upanddown {
+  0%{
+    transform: translateY(0px);
+    color: blueviolet;
+}
+50%{
+    transform: translateY(-90px);
+    color: green;
+}
+
+100%{
+    transform: translateY(-140px);
+    color: red;
+}
+}
 .conentbox #btn1{
   padding: 5px 25px;
   z-index: 1;
@@ -181,6 +217,7 @@ body{
 }
 .text h1{
   background-color: rgba(238, 231, 231, 0.9);
+  background-color: rgb(218, 222, 219);
   width: 50%;
   float: left;
   font-size: 25px;
@@ -190,7 +227,9 @@ body{
 }
 .text h1:last-child{
   background-color: rgba(238, 231, 231, 0.9);
+  background-color: rgb(97, 170, 195);
   width: 50%;
+  border-radius: 2px;
 }
 .text1{
   width: 100%;
@@ -203,10 +242,11 @@ body{
   font-size: 24px;
   padding: 6px 12px;
   text-align: left;
-  background-color: rgb(197, 196, 196);
+  background-color: rgb(218, 222, 219);
 }
 .text1 h2:last-child {
 background-color: rgba(127, 129, 127, 0.944);
+background-color: rgb(97, 170, 195);
 
 }
 
@@ -229,6 +269,7 @@ background-color: rgba(127, 129, 127, 0.944);
 
   padding: 6px 12px;
   background-color: rgb(168, 229, 249);
+ 
 }
 .text2 .address p{
   text-align: center;

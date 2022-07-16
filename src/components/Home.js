@@ -10,6 +10,12 @@ function Home() {
            //  img.style.height = "500px";
            img.classList.toggle("aboutImg");
           });
+          let img1 = document.querySelector(".navLogo");
+          img1.addEventListener("click",()=>{
+           //  img.style.height = "500px";
+           img1.classList.toggle("logos");
+          });
+          
         }
         imgFull();
        },[])
@@ -23,7 +29,13 @@ function Home() {
           />
         </div>
         <div className="conentbox">
+          <div className="moveupanddown"><h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+          
           <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+          <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+         
+          </div>
+          
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
             delectus iste ratione eum esse error modi atque facilis sequi minima
