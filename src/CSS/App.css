@@ -2,13 +2,22 @@
 
 /* print */
 
-@media print {
+@media print and (color) {
+
+  *{
+    -webkit-print-color-adjust:exact;
+    print-color-adjust: exact;
+  }
   canvas , .backphotos, .animation1, .btnbox, #carouselExampleCaptions , ul {
     visibility: hidden;
   }
-  .conentbox, .address, .backphotos , .imgbox {
+  .conentbox, .address, .backphotos , .imgbox , .text , .text1 , .text2, .title{
     visibility: visible;
+    
   }
+   
+
+
 }
 .printbtn{
   padding: 4px 10px;
