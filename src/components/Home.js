@@ -70,7 +70,7 @@ function Home() {
             accusamus culpa, asperiores provident praesentium!
           </p>
           <button id="btn1" className="btn btn-primary">
-            <a href="https://musaif.netlify.com">enroll</a>
+            <a href="https://wa.me/917995587687?text=Assalamu alaikum ">chat</a>
           </button>
         </div>
       </div>
