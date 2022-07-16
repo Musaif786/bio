@@ -65,12 +65,13 @@ function Home() {
           </div>
           
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+          Assalamualaikum warahmatullahi wabarakatuh,
+            Lorem  adipisicing elit. Facere,
             delectus iste ratione eum esse error modi atque facilis sequi minima
             accusamus culpa, asperiores provident praesentium!
           </p>
           <button id="btn1" className="btn btn-primary">
-            <a href="https://wa.me/917995587687?text=Assalamu alaikum ">chat</a>
+            <a href="https://wa.me/917995587687?text=Assalamu alaikum ">contact</a>
           </button>
         </div>
       </div>
