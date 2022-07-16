@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function nav() {
-  
+  const print = () =>{
+    window.print();
+  } 
+  //const print = "Hello"
   return (
     <div>
       <div className="nav">
@@ -11,8 +14,11 @@ function nav() {
         </div>
         <ul>
           
-          <li className="home" >
+          {/* <li className="home" >
             <Link to="/">Home</Link>
+          </li> */}
+          <li className="home" >
+          <button className="printbtn" onClick={print}>Download</button>
           </li>
 
           {/* <li>

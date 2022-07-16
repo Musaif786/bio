@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+
+/* print */
+
+@media print {
+  canvas , .backphotos, .animation1, .btnbox, #carouselExampleCaptions , ul {
+    visibility: hidden;
+  }
+  .conentbox, .address, .backphotos , .imgbox {
+    visibility: visible;
+  }
+}
+.printbtn{
+  padding: 4px 10px;
+  text-transform: capitalize;
+  color: blue;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid blue;
+}
+.printbtn:hover{
+  background-color: rgb(152, 187, 225);
+  color: black;
+}
 .App {
   text-align: center;
 font-family: 'Roboto Mono', monospace;
