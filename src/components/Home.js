@@ -277,7 +277,11 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
           
           <p>
           10-5-391/54/219/A/1, MLA colony, Syed Nagar:2, Bajnara Hill's, RoadNo:12, HYderabad, Telengana.
+
           </p>
+          <p>Phone no: <a className="text-decoration-none" href="https://wa.me/919550278896?text=urlencodedtext ">9550278896</a> </p>
+          <p>Phone no: <a className="text-decoration-none" href="https://wa.me/917995587687?text=urlencodedtext ">7995587687</a> </p>
+          
           </div>
           
         </div>
