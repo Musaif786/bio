@@ -1,5 +1,6 @@
 import React ,{useEffect} from "react";
 import Nav from "./nav";
+import Footer from "./footer"
 
 function Home() {
 
@@ -10,17 +11,44 @@ function Home() {
            //  img.style.height = "500px";
            img.classList.toggle("aboutImg");
           });
-          let img1 = document.querySelector(".navLogo");
-          img1.addEventListener("click",()=>{
+           let img1 = document.querySelector(".navLogo");
+           img1.addEventListener("click",()=>{
+            //  img.style.height = "500px";
+            img1.classList.toggle("logos");
+           });
+
+        
+
+           
+          // for canvas
+          let open = document.querySelector(".magic");
+          let cons = document.querySelector("canvas");
+          let close = document.querySelector(".magicClose")
+          open.addEventListener("click",()=>{
            //  img.style.height = "500px";
-           img1.classList.toggle("logos");
+          //  img2.classList.toggle("convas");
+          cons.style.display = "block"
+          open.style.display = "none"
+          close.style.display = "block"
+
           });
+
+          close.addEventListener("click",()=>{
+            //  img.style.height = "500px";
+           //  img2.classList.toggle("convas");
+           
+           cons.style.display="none"
+           close.style.display = "none"
+           open.style.display = "block"
+ 
+           });
           
         }
         imgFull();
        },[])
   return (
-    <div>
+    <div >
+    
       <div className="wrapper">
         <div className="imgbox">
           <img 
@@ -31,8 +59,8 @@ function Home() {
         <div className="conentbox">
           <div className="moveupanddown"><h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
           
-          <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
-          <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+          <h1>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
+          <h1>اللہ آپ کو ہمیشہ سلامت رکھے</h1>
          
           </div>
           
@@ -258,8 +286,14 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
       </div>
 
       {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.005090182846!2d78.4295924285899!3d17.40738618437343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9727551755c3%3A0x24ce9f67b9c075c4!2zMTfCsDI0JzI2LjUiTiA3OMKwMjUnNDcuNSJF!5e0!3m2!1sen!2sin!4v1657768616702!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+    
+      <div className="animation1">
+    <Footer/>
+
+    </div>
     </div>
   );
+
 }
 
 export default Home;
