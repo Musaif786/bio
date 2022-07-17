@@ -3,10 +3,10 @@ import Nav from "./nav";
 import Footer from "./footer"
 
 function Home() {
-
+  
     useEffect(()=>{
         const imgFull =()=>{
-          let innerWidth = window.width
+          let widths = window.innerWidth;
           let img = document.querySelector(".imgbox");
           img.addEventListener("click",()=>{
            //  img.style.height = "500px";
@@ -26,7 +26,8 @@ function Home() {
           let cons = document.querySelector("canvas");
           let close = document.querySelector(".magicClose")
           let conentbox = document.querySelector(".conentbox")
-          let backphotos = document.querySelector(".backphotos")
+          let backphotos = document.querySelector(".backphotos");
+          let logo  = document.querySelector("#logo");
           open.addEventListener("click",()=>{
            //  img.style.height = "500px";
           //  img2.classList.toggle("convas");
@@ -35,6 +36,7 @@ function Home() {
           open.style.display = "none"
           close.style.display = "block"
           backphotos.style.display = "none"
+          
 
           });
 
@@ -46,7 +48,8 @@ function Home() {
            close.style.display = "none"
            open.style.display = "block"
            conentbox.style.display = "block"
-           if (innerWidth > 600){
+           
+           if (widths > 600){
 
              backphotos.style.display = "block"
             }
@@ -55,10 +58,19 @@ function Home() {
             } 
  
            });
+           const ints = ()=>{
+            setInterval(()=>{
+              alert("Hello")
+
+            },[1000])
+           }
+            // ints(widths);
           
         }
         imgFull();
        },[])
+
+       
   return (
     <div >
     
