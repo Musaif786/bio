@@ -6,6 +6,7 @@ function Home() {
 
     useEffect(()=>{
         const imgFull =()=>{
+          let innerWidth = window.width
           let img = document.querySelector(".imgbox");
           img.addEventListener("click",()=>{
            //  img.style.height = "500px";
@@ -25,6 +26,7 @@ function Home() {
           let cons = document.querySelector("canvas");
           let close = document.querySelector(".magicClose")
           let conentbox = document.querySelector(".conentbox")
+          let backphotos = document.querySelector(".backphotos")
           open.addEventListener("click",()=>{
            //  img.style.height = "500px";
           //  img2.classList.toggle("convas");
@@ -32,6 +34,7 @@ function Home() {
           conentbox.style.display = "none"
           open.style.display = "none"
           close.style.display = "block"
+          backphotos.style.display = "none"
 
           });
 
@@ -43,6 +46,13 @@ function Home() {
            close.style.display = "none"
            open.style.display = "block"
            conentbox.style.display = "block"
+           if (innerWidth > "600px"){
+
+             backphotos.style.display = "block"
+            }
+            else{
+              backphotos.style.display = "none"
+            } 
  
            });
           

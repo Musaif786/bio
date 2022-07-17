@@ -110,7 +110,7 @@ canvas.aboutImg {
   font-size: 12px;
   z-index: 100;
   background-color: rgb(202, 202, 229);
-  background-color: transparent;
+  
 }
 .App-header {
   background-color: #282c34;
@@ -422,7 +422,7 @@ background-color: rgb(97, 170, 195);
    font-size: 22px; 
   }
   .btnbox{
-    display: none;
+    display: block;
   }
   
 }
