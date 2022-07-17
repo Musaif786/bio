@@ -424,7 +424,7 @@ background-color: rgb(97, 170, 195);
 
 @media screen and (max-width: 500px) {
   .backphotos{
-    display: none;
+    display: block;
   }
   .wrapper{
     flex-direction: column;

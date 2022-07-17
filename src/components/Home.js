@@ -27,7 +27,7 @@ function Home() {
           let close = document.querySelector(".magicClose")
           let conentbox = document.querySelector(".conentbox")
           let backphotos = document.querySelector(".backphotos");
-          let logo  = document.querySelector("#logo");
+          let printbtn  = document.querySelector(".printbtn");
           open.addEventListener("click",()=>{
            //  img.style.height = "500px";
           //  img2.classList.toggle("convas");
@@ -36,7 +36,7 @@ function Home() {
           open.style.display = "none"
           close.style.display = "block"
           backphotos.style.display = "none"
-          
+          printbtn.style.display = "none"
 
           });
 
@@ -48,7 +48,7 @@ function Home() {
            close.style.display = "none"
            open.style.display = "block"
            conentbox.style.display = "block"
-           
+           printbtn.style.display = "block"
            if (widths > 600){
 
              backphotos.style.display = "block"
