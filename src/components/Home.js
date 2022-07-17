@@ -212,7 +212,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
         </div>
         <div className="text">
           <h1>occupation :</h1>
-          <h1>Splunk developer/Admin </h1>
+          <h1>software developer </h1>
         </div>
       </div>
 
