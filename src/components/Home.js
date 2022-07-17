@@ -24,10 +24,12 @@ function Home() {
           let open = document.querySelector(".magic");
           let cons = document.querySelector("canvas");
           let close = document.querySelector(".magicClose")
+          let conentbox = document.querySelector(".conentbox")
           open.addEventListener("click",()=>{
            //  img.style.height = "500px";
           //  img2.classList.toggle("convas");
           cons.style.display = "block"
+          conentbox.style.display = "none"
           open.style.display = "none"
           close.style.display = "block"
 
@@ -40,6 +42,7 @@ function Home() {
            cons.style.display="none"
            close.style.display = "none"
            open.style.display = "block"
+           conentbox.style.display = "block"
  
            });
           
@@ -273,7 +276,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 <div className="title">Address...</div>
 
 <div className="info">
-        <div className="text2">
+        <div id="forprint" className="text2">
           <div className="address"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.005090182846!2d78.4295924285899!3d17.40738618437343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9727551755c3%3A0x24ce9f67b9c075c4!2zMTfCsDI0JzI2LjUiTiA3OMKwMjUnNDcuNSJF!5e0!3m2!1sen!2sin!4v1657768616702!5m2!1sen!2sin"></iframe>
           
           <p>

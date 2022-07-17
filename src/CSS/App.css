@@ -7,6 +7,12 @@
   *{
     -webkit-print-color-adjust:exact;
     print-color-adjust: exact;
+    animation: none;
+  }
+  body{
+    
+    overflow-y: hidden;
+    
   }
   canvas , .backphotos, .animation1, .btnbox, #carouselExampleCaptions , ul {
     visibility: hidden;
@@ -21,7 +27,14 @@
     color: green;
     
    }
-   
+   .title{
+    page-break-before: always;
+    animation: none;
+    color: rgb(7, 91, 188);
+  }
+   #forprint p{
+    font-size: 14px;
+   }
 
 
 }
@@ -94,9 +107,10 @@ canvas.aboutImg {
 }
 .btnbox button{
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 12px;
   z-index: 100;
-  background-color: rgb(135, 135, 183);
+  background-color: rgb(202, 202, 229);
+  background-color: transparent;
 }
 .App-header {
   background-color: #282c34;
@@ -280,6 +294,25 @@ canvas.aboutImg {
   margin: 10px 0px;
   margin-top: 20px;
   padding: 10px;
+  color: rgb(7, 91, 188);
+  animation: titles 8s ease-in-out infinite;
+}
+
+@keyframes titles {
+  25%{
+    letter-spacing: 10px;
+  }
+  50%{
+    letter-spacing: 14px;
+    color: rgb(255, 0, 183);
+    color: rgb(97, 170, 195);
+  }
+  75%{
+    letter-spacing: 12px;
+  }
+  100%{
+    letter-spacing: 10px;
+  }
 }
 
 /* info */
