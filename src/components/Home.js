@@ -185,7 +185,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 </div>
 
     </div> */}
-      <div className="title">profile...</div>
+      <div className="title"><i class="fa fa-user-md" aria-hidden="true"></i> profile... </div>
       <div className="info">
         <div className="text">
           <h1>Name :</h1>
@@ -296,7 +296,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
 
 
       {/* Address */}
-<div className="title">Address...</div>
+<div className="title"><i class="fa fa-map-marker" aria-hidden="true"></i> Address...</div>
 
 <div className="info">
         <div id="forprint" className="text2">
