@@ -43,8 +43,8 @@ function footer() {
   return (
     <div> <div className='btnbox'>
 
-      <button className='magic'>Open</button>
-      <button className='magicClose'>close</button>
+      <button className='magic'><i class="fa fa-magic" aria-hidden="true"></i></button>
+      <button className='magicClose'><i class="fa fa-times" aria-hidden="true"></i></button>
     </div>
 
     </div>
