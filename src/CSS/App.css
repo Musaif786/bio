@@ -28,7 +28,7 @@
     
    }
    .title{
-    page-break-before: always;
+    /* page-break-before: always; */
     animation: none;
     color: rgb(7, 91, 188);
   }
