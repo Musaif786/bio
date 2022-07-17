@@ -109,8 +109,13 @@ canvas.aboutImg {
   border-radius: 5px;
   font-size: 12px;
   z-index: 100;
-  background-color: rgb(202, 202, 229);
+  background-color: rgb(247, 247, 247);
+  text-transform: capitalize;
   
+}
+.btnbox button:last-child{
+  display: none;
+  border: 1px solid white;
 }
 .App-header {
   background-color: #282c34;

@@ -46,7 +46,7 @@ function Home() {
            close.style.display = "none"
            open.style.display = "block"
            conentbox.style.display = "block"
-           if (innerWidth > "600px"){
+           if (innerWidth > 600){
 
              backphotos.style.display = "block"
             }
