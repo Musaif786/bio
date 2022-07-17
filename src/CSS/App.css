@@ -449,6 +449,12 @@ background-color: rgb(97, 170, 195);
   .title{
     font-size: 30px;
   }
+  .text2 .address p{
+    font-size: 18px;
+   text-transform: capitalize;
+    padding: 0px;
+    margin: 4px auto;
+  }
 }
 .imgbox.aboutImg{
   position: absolute;

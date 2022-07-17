@@ -79,9 +79,7 @@ function Home() {
           
           <p>
           Assalamualaikum warahmatullahi wabarakatuh,
-            Lorem  adipisicing elit. Facere,
-            delectus iste ratione eum esse error modi atque facilis sequi minima
-            accusamus culpa, asperiores provident praesentium!
+            My name is <span className="text-primary fw-bold"> Mohammed Musaif </span>and i'm from Hyderbad, and i'm a software developer below are the more details please go further. Regards Musaif.
           </p>
           <button id="btn1" className="btn btn-primary">
             <a href="https://wa.me/917995587687?text=Assalamu alaikum ">contact</a>
@@ -166,12 +164,7 @@ function Home() {
           </button>
         </div>
       </div>
-      {/* <div className='details'>
-       <div>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, illo!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam laudantium nostrum, qui debitis tenetur minima. Eius saepe iste quas cupiditate deserunt error officiis aliquam perspiciatis est. Impedit est, quam similique ad, architecto dolores facilis voluptate ea maxime labore autem, voluptas dolore praesentium vero neque fugiat quasi in quisquam aspernatur ipsam. Dolor et saepe sapiente, dicta fuga ullam, inventore optio magnam ratione unde nobis minima quasi. Cum itaque harum minima nulla nobis. Voluptate debitis in ea distinctio non pariatur ex deserunt, quibusdam repellat, molestias esse. Saepe odit id quod nisi ipsum qui eum aperiam cumque. Ipsam, autem. Sed voluptas nam cumque molestias eum! Corrupti quasi ea in voluptate earum maxime error tempora reiciendis quibusdam aliquam! Vitae ipsa facere in cupiditate obcaecati eaque explicabo ipsum eveniet repudiandae eum fugiat sed quisquam praesentium enim fugit quis et, id a, beatae dolore maiores? Impedit nostrum animi facere corporis! Natus, earum. Illo praesentium id tenetur eligendi minus assumenda quos doloribus atque iste? Doloribus asperiores quod ea tempore inventore. Adipisci magnam eos consequatur officia voluptas ipsum praesentium, minus earum necessitatibus est nisi, aperiam quo suscipit non hic velit dolor itaque consequuntur soluta? Nobis quis quos, soluta ipsam ducimus in debitis pariatur dolores error iure ab?</p>
-       </div>
-    </div> */}
+      
 
       {/* <div className='titleLine'>
     
@@ -298,11 +291,11 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
           <div className="address"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.005090182846!2d78.4295924285899!3d17.40738618437343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9727551755c3%3A0x24ce9f67b9c075c4!2zMTfCsDI0JzI2LjUiTiA3OMKwMjUnNDcuNSJF!5e0!3m2!1sen!2sin!4v1657768616702!5m2!1sen!2sin"></iframe>
           
           <p>
-          10-5-391/54/219/A/1, MLA colony, Syed Nagar:2, Bajnara Hill's, RoadNo:12, HYderabad, Telengana.
+          10-5-391/54/219/A/1, MLA colony, Syed Nagar-2, Banjara Hill's, RoadNo-12, Hyderabad, Telengana.
 
           </p>
-          <p>Phone no: <a className="text-decoration-none" href="https://wa.me/919550278896?text=Assalamu Alaikum ">9550278896</a> </p>
-          <p>Phone no: <a className="text-decoration-none" href="https://wa.me/917995587687?text=Assalamu Alaikum ">7995587687</a> </p>
+          <p><i class="fa fa-whatsapp" aria-hidden="true"></i> Phone no: <a className="text-decoration-none" href="https://wa.me/919550278896?text=Assalamu Alaikum ">9550278896 </a> </p>
+          <p><i class="fa fa-whatsapp" aria-hidden="true"></i> Phone no: <a className="text-decoration-none" href="https://wa.me/917995587687?text=Assalamu Alaikum ">7995587687</a> </p>
           
           </div>
           
