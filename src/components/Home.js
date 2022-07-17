@@ -195,7 +195,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
           <h1>5'6"</h1>
         </div>
         <div className="text">
-          <h1>Color :</h1>
+          <h1>complexion :</h1>
           <h1>fair</h1>
         </div>
         <div className="text">
@@ -205,6 +205,14 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quas?
         <div className="text">
           <h1>education :</h1>
           <h1>B.tech</h1>
+        </div>
+        <div className="text">
+          <h1>Native place :</h1>
+          <h1>Hyderabad</h1>
+        </div>
+        <div className="text">
+          <h1>occupation :</h1>
+          <h1>Splunk developer/Admin </h1>
         </div>
       </div>
 
