@@ -424,7 +424,7 @@ background-color: rgb(97, 170, 195);
 
 @media screen and (max-width: 500px) {
   .backphotos{
-    display: block;
+    display: none;
   }
   .wrapper{
     flex-direction: column;
@@ -464,9 +464,7 @@ background-color: rgb(97, 170, 195);
     padding: 0px;
     margin: 4px auto;
   }
-  .backphotos{
-    width: 1400px;
-  }
+  
 }
 .imgbox.aboutImg{
   position: absolute;
