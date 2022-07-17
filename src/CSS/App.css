@@ -111,11 +111,14 @@ canvas.aboutImg {
   z-index: 100;
   background-color: rgb(247, 247, 247);
   text-transform: capitalize;
+  background-color: transparent;
+  
   
 }
 .btnbox button:last-child{
   display: none;
   border: 1px solid white;
+  color: white;
 }
 .App-header {
   background-color: #282c34;
